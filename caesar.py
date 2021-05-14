@@ -63,7 +63,7 @@ def main():
         if z == 1:
             encrypt()
         elif z == 2:
-            decrypt(low)
+            decrypt(LETTERS)
         elif z == 3:
             brute_force(LETTERS)
         else:
